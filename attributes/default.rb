@@ -1,6 +1,9 @@
 
 #Test Comment
 
+#### Attributes ####
+
+
 case 
 when node[:platform_family] == 'rhel'
   default[:helloworld][:file] = "/tmp/helloworld.txt"
