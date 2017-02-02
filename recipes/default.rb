@@ -1,5 +1,6 @@
 
 
+log "starting to run the recipe"
 
 log "#{node[:helloworld][:content]}"
 
